@@ -6,6 +6,7 @@
 
 ## Usage
 
+### AndroidStudio
 1. add dependency
 
     `debugCompile 'yifeiyuan.library.crashcatcher:crashcatcher:0.0.2'`   
@@ -23,6 +24,10 @@ public class App extends Application {
     }
 }
 ```
+
+### Eclipse
+
+![](http://ww2.sinaimg.cn/large/98900c07gw1evxry47ngtj20dw09a3yu.jpg)
 
 That's all!
 
