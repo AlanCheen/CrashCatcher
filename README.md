@@ -8,9 +8,9 @@
 
 1. add dependency
 
-    debugCompile 'yifeiyuan.library.crashcatcher:crashcatcher:0.0.2'  
+    `debugCompile 'yifeiyuan.library.crashcatcher:crashcatcher:0.0.2'`   
     
-    releaseCompile 'yifeiyuan.library.crashcatcher:crashcatcher-no-op:0.0.2' //还在上传中 暂时用不了
+    `releaseCompile 'yifeiyuan.library.crashcatcher:crashcatcher-no-op:0.0.2'`
     
 2. 在Application里添加代码:
 
