@@ -23,5 +23,9 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.0.0'
-    compile project(':crashcatcher')
+    compile 'yifeiyuan.library.crashcatcher:crashcatcher:0.0.1'
+    //    compile project(':crashcatcher')
+    //    compile(group: 'yifeiyuan.library', name: 'crashcatcher', version: '0.0.1', ext: 'xml')
+    debugCompile project(':crashcatcher')
+    releaseCompile project(':crashcatcher-no-op')
 }

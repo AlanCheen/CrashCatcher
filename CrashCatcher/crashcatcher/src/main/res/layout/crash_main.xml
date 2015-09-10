@@ -3,13 +3,15 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
               android:orientation="vertical"
-                tools:context="yifeiyuan.library.crashcatcher.CrashCatcherActivity">
+                tools:context="yifeiyuan.library.crashcatcher.CrashCatcherActivity"
+              tools:ignore="ResourceName">
 
     <TextView
         android:id="@+id/tv"
-        android:text="@string/hello_world"
+        android:text="Catched crashes:"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:padding="16dp"/>
 
 
     <android.support.v7.widget.RecyclerView
